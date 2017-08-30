@@ -1,57 +1,39 @@
-# Project Name
+---
+services: Search
+platforms: java
+author: milismsft
+---
 
-(short, 1-3 sentenced, description of the project)
-
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+## Getting Started with Search - Manage Search Service - in Java ##
 
 
-## Demo
+  Azure Search sample for managing search service.
+   - Create a Search service resource with a free SKU
+   - Create a Search service resource with a standard SKU, one replica and one partition
+   - Create a new query key and delete a query key
+   - Update the Search service with three replicas and three partitions
+   - Regenerate the primary and secondary admin keys
+   - Delete the Search service
+ 
 
-A demo app is included to show how to use the project.
+## Running this Sample ##
 
-To run the demo, follow these steps:
+To run this sample:
 
-(Add steps to start up the demo)
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-java/blob/master/AUTH.md).
 
-1.
-2.
-3.
+    git clone https://github.com/Azure-Samples/search-java-manage-search-service.git
 
-## Resources
+    cd search-java-manage-search-service
 
-(Any additional resources or related projects)
+    mvn clean compile exec:java
 
-- Link to supporting information
-- Link to similar sample
-- ...
+## More information ##
+
+[http://azure.com/java](http://azure.com/java)
+
+If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
+
+---
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
