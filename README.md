@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: Search
-platforms: java
-author: yaohaizh
+extensions:
+- services: Search
+- platforms: java
 ---
 
-## Getting Started with Search - Manage Search Service - in Java ##
+# Getting Started with Search - Manage Search Service - in Java #
 
 
   Azure Search sample for managing search service.
