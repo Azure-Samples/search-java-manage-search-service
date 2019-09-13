@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Search
-- platforms: java
+description: "Getting Started with Search - Manage Search Service - in Java"
+urlFragment: search-java-manage-search-service
 ---
 
 # Getting Started with Search - Manage Search Service - in Java #
