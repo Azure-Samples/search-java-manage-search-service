@@ -4,40 +4,39 @@ languages:
 - java
 products:
 - azure
-description: "Getting Started with Search - Manage Search Service - in Java"
+- azure-search
+description: "Azure Search sample for managing search service."
 urlFragment: search-java-manage-search-service
 ---
 
-# Getting Started with Search - Manage Search Service - in Java #
+# Manage Azure Search Service (Java)
 
+Azure Search sample for managing search service.
 
-  Azure Search sample for managing search service.
-   - Create a Search service resource with a free SKU
-   - Create a Search service resource with a standard SKU, one replica and one partition
-   - Create a new query key and delete a query key
-   - Update the Search service with three replicas and three partitions
-   - Regenerate the primary and secondary admin keys
-   - Delete the Search service
+- Create a Search service resource with a free SKU
+- Create a Search service resource with a standard SKU, one replica and one partition
+- Create a new query key and delete a query key
+- Update the Search service with three replicas and three partitions
+- Regenerate the primary and secondary admin keys
+- Delete the Search service
  
 
-## Running this Sample ##
+## Running this sample
 
 To run this sample:
 
 Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
-    git clone https://github.com/Azure-Samples/search-java-manage-search-service.git
+```bash
+git clone https://github.com/Azure-Samples/search-java-manage-search-service.git
+cd search-java-manage-search-service
+mvn clean compile exec:java
+```
 
-    cd search-java-manage-search-service
-
-    mvn clean compile exec:java
-
-## More information ##
+## More information
 
 [http://azure.com/java](http://azure.com/java)
 
-If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
-
----
+If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212).
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
