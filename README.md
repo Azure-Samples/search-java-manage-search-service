@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: Search
-- platforms: java
+  services: Search
+  platforms: java
 ---
 
 # Getting Started with Search - Manage Search Service - in Java #
